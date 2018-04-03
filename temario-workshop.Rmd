@@ -1,0 +1,71 @@
+---
+title: "Workshop sobre Sistemas de Recomendación con Neo4j"
+author: "J. Adrián Sánchez"
+date: "Jueves 5 y Viernes 6 de abril de 2018"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+## Presentación
+
+El análisis de redes/grafos es el área encargada de analizar una red mediante la teoría de grafos. Las redes pueden ser de diversos tipos: social, de transportación, eléctrica, biológica, internet, de información, de epidemiología. Los estudios realizados sobre las redes abarcan sus estructuras tales como  las redes de mundo pequeño, las redes libres de escala, los círculos sociales, medidas de centralidad; todas ellas conocidos también como análisis estructural. 
+
+En la ciencia de datos nos interesa extrapolar estas teorías y métodos para entender mejor los sistemas complejos que buscamos modelar. De esta manera, se desprenden herramientas importantes que pueden ser utilizados especialmente por la minería de datos para extraer información con el objetivo de crear modelos predictivos de ciertos fenómenos.
+
+En este curso se verá a manera de introducción el análisis estructural de redes/grafos/sistemas y su aplicación en la ciencia de datos. Se buscará explicar cómo la conceptualización de grafos ha sido propuesta para el modelado y el almacenamiento de datos. Además de exponer la teoría que da su fundamento, se continuará con la creación de un sistema de recomendación a través del modelado de bases de datos de grafos. 
+
+##¿Cómo lo haremos?
+
+La alternativa a los **sistemas de recomendación** con base en **filtros colaborativos** son aquellos basados en una estructura interconectada de atributos que comparten entre sí un conjunto de usuarios o artículos (ítems) para este caso en específico, como lo puede ser un perfil en una **red social**. Este Workshop buscará dar una primera aproximación para la creación de un sistema de recomendación a partir de una **base de datos de grafos** debido a su capacidad para almacenar y representar bajo relaciones los elementos/observaciones a partir de sus atributos/propiedades.
+
+En esta segunda parte del workshop se ha propuesto utilizar Neo4j debido a la potencia que las bases de datos de grafos pueden proveer para los sistemas de recomendación. El objetivo es construir una base de datos de grafos a partir de sus atributos para almacenar y consultar información interconectada que partirá de algunas bases de datos de la aplicación **Meetup**^[https://www.meetup.com/es-ES/] en donde buscaremos crear un sistema de recomendación para que personas asistan eventos que puedan interesarles con base en su perfil. 
+
+## Agenda
+
+### Día 1: Jueves 5 de abril de 2018 - 15:00 - 17:30 hrs. SALON 304
+
+#### Introducción a Grafos: "Graphs Are Everywhere" (1hr)
+1. ¿Qué es un grafo?
+2. Propiedades y Análisis estructural
+3. Modelando una red social: Twitter (ejemplo)
+
+####Modelado de Sistemas Complejos: bases de datos de grafos (1.5hr)
+
+1. Sistemas Complejos y Ciencia de Datos
+2. Almacenando datos interconectados 
+3. Base de Datos de Grafos: Neo4j 
+4. Set-up Neo4j: nuestra primer base de datos en neo4j
+5. Modelando un sistema complejo: Twitter (ejemplo continuación)
+
+
+### Día 2: Viernes 6 de abril de 2018 - 9:00 - 12:00 hrs. SALON 315
+
+
+####Sistema de Recomendación con Neo4j: Meetup
+1. Recomendación de grupos por temas
+2. Grupos similares a los mios
+3. Mis intereses
+4. Recomendaciones de Eventos
+5. Recomendaciones de Lugares
+6. RSVP
+7. Procedimientos
+8. Grafo Social Latente
+9. Recomendaciones por scoring
+
+
+## Lugar
+- Campus Rio Hondo
+- Jueves, 5 de abril de 15:00 a 17:30 h en el salón 304
+- Viernes, 6 de abril de 9 a 12:00 h en el salón 315
+
+## Requisitos
+- Tener instalado la versión más reciente de Neo4j^[https://neo4j.com/download/community-edition/]
+- Importantísimo que asistan el primer día, ya que se verán las bases técnicas para elaborar el sistema de recomendación del día dos.
+
+## Contacto 
+- e-mail: adrian@ianalytics.org
+- twitter: @schzcas
+- móvil: 555-1007-653
+- web: schzcas.com
+
